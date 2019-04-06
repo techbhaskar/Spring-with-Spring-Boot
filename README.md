@@ -21,10 +21,11 @@ It’s open source java platform, comprising of core features like Dependency in
 # 1) Spring core module
 Core module contains the subsequent features
 
-	1.1)	Core: This module contains IoC and Dependency features
-	1.2)	Bean: This module contains BeanFactory
-	1.3)	Context: This module contains the ApplicationContext interface
-	1.4)	SpEL: This module contains the expression language for querying and manipulating an object graph at runtime.
+* [Core](spring-ioc/Readme.md): This module contains IoC and Dependency features 
+* [Bean](spring-dependency/Readme.md): This module contains BeanFactory
+
+       1.3) Context: This module contains the ApplicationContext interface
+       1.4) SpEL: This module contains the expression language for querying and manipulating an object graph at runtime.
 # 2) AOP (Aspect Oriented Programming)
 
        2.1) AOP: This module provides support to integrate with AspectJ, which will define method-interceptors and pointcuts
