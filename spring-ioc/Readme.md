@@ -3,7 +3,7 @@ Clone the project project from git to your local -> Import the spring-ioc projec
 # Result as shown
 ![](https://github.com/techbhaskar/Spring-with-Spring-Boot/blob/master/spring-ioc/spring-ioc-res.JPG)
 
-What we are going to learn from this example
+# What we are going to learn from this example
 
 Spring IoC is responsible to instantiate and configure all the objects (beans).
 There are two types of IoC containers
