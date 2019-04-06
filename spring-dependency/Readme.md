@@ -1,4 +1,4 @@
-# How to run spring Depency example
+# How to run Spring Depency example
 Clone the project project from git to your local -> Import the spring-dependency project as maven project into your workspace -> then run com.training.spring.Test java file.
 # Result as shown
 ![](https://github.com/techbhaskar/Spring-with-Spring-Boot/blob/master/spring-dependency/spring-dependency-res.JPG)
