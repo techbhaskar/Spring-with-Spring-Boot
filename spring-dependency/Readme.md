@@ -37,6 +37,6 @@ Available bean life cycle methods are init() and destroy()
 Depency Injection (DI)
 Its a design pattern to remove the de-couple the object creation with the application flow. To achieve this we have to give the required information in configuration xml file.
 
-In 2 ways we can achive DI
+In 2 ways we can acheive DI
 1) By Setter injection
 2) By Contructor injection
