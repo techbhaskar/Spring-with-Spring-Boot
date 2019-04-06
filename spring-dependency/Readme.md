@@ -5,8 +5,33 @@ Clone the project project from git to your local -> Import the spring-dependency
 
 # What we are going to learn from this example
 
-Spring IoC is responsible to instantiate and configure all the objects (beans).
-There are two types of IoC containers
-	One is ApplicationContext and the another one is BeanFactory.
 
-The org.springframework.beans.factory.BeanFactory and the  org.springframework.context.ApplicationContext interfaces acts as the IoC container. The ApplicationContext interface is built on top of the BeanFactory interface.  It adds some extra functionality than  BeanFactory such as simple integration  with Spring's AOP
+Bean scopes
+
+singleton : single instance per IoC container (default).
+
+prototype : single bean definition to have any number of object instances.
+
+request : bean definition to an HTTP request
+
+session : bean definition to an HTTP session
+
+global-session : This scopes a bean definition to a global HTTP session.
+
+Bean life depend upon it's scope defined in the applicationcontext xml.
+
+Available bean life cycle methods are init() and destroy()
+	public void init() {
+      // do something
+   }
+   
+   public void destroy() {
+      // do something
+   }
+
+Depency Injection (DI)
+Its a design pattern to remove the de-couple the object creation with the application flow. To achieve this we have to give the required information in configuration xml file.
+
+In 2 ways we can achive DI
+1) By Setter injection
+2) By Contructor injection
