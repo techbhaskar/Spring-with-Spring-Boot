@@ -21,13 +21,14 @@ global-session : This scopes a bean definition to a global HTTP session.
 Bean life depend upon it's scope defined in the applicationcontext xml.
 
 Available bean life cycle methods are init() and destroy()
+
 	public void init() {
-      // do something
-   }
-   
-   public void destroy() {
-      // do something
-   }
+      	 // do something
+        }
+	
+	public void destroy() {
+      	 // do something
+   	}
 
 Depency Injection (DI)
 Its a design pattern to remove the de-couple the object creation with the application flow. To achieve this we have to give the required information in configuration xml file.
