@@ -21,7 +21,11 @@ global-session : This scopes a bean definition to a global HTTP session.
 Bean life depend upon it's scope defined in the applicationcontext xml.
 
 Available bean life cycle methods are init() and destroy()
-
+    	
+	<bean id = "springBean" class = "com.training.spring.ExplainSpringBean"
+	      init-method = "init" destroy-method = "destroy">
+	      <property name = "name" value = "Hello world, Boss Here!"/>
+	</bean>
 	public void init() {
       	 // do something
         }
