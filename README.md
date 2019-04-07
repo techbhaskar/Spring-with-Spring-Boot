@@ -23,8 +23,8 @@ Core module contains the subsequent features
 
 * [Core](spring-ioc/Readme.md): This module contains IoC and Dependency features 
 * [Bean](spring-dependency/Readme.md): This module contains BeanFactory
+* [Context](spring-appcontext/Readme.md): This module contains the ApplicationContext interface
 
-       1.3) Context: This module contains the ApplicationContext interface
        1.4) SpEL: This module contains the expression language for querying and manipulating an object graph at runtime.
 # 2) AOP (Aspect Oriented Programming)
 
