@@ -1,3 +1,9 @@
+# How to run Spring ApplicationContext Container example
+Clone the project project from git to your local -> Import the spring-appcontext project as maven project into your workspace -> then run com.training.spring.Test java file.
+# Result as shown
+![](https://github.com/techbhaskar/Spring-with-Spring-Boot/blob/master/spring-appcontext/spring-appcontext-res.JPG)
+
+# What we are going to learn from this example
 # Spring ApplicationContext Container
 # ApplicationContext 
 ApplicationContext is a container similarly like BeanFactory, which loads Beans etc.. in addition to that it provide the functionalities like MessageSource, Access to URLs and Loading of multiple (hierarchical) contexts.
