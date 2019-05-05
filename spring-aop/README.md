@@ -1,7 +1,7 @@
 # How to run Spring Aop example
 Clone the project project from git to your local -> Import the spring-aop project as maven project into your workspace -> then run com.training.spring.Test java file.
 # Result as shown
-![](https://github.com/techbhaskar/Spring-with-Spring-Boot/blob/master/spring-appcontext/spring-aop-res.JPG)
+![](https://github.com/techbhaskar/Spring-with-Spring-Boot/blob/master/spring-aop/spring-aop-res.JPG)
 
 # What we are going to learn from this example
 # Spring AOP
