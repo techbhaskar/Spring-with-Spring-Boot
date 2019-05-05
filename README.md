@@ -28,7 +28,7 @@ Core module contains the subsequent features
        1.4) SpEL: This module contains the expression language for querying and manipulating an object graph at runtime.
 # 2) AOP (Aspect Oriented Programming)
 
-       2.1) AOP: This module provides support to integrate with AspectJ, which will define method-interceptors and pointcuts
+   * 2.1) [AOP](spring-aop): This module provides support to integrate with AspectJ, which will define method-interceptors and pointcuts
 # 3) Data Access and Integration
 
 	3.1) JDBC
